@@ -3,7 +3,7 @@ const logger = require('../utils/logger'); // Import logger
 
 function AuthorsController() { }
 
-const getQuery = 'SELECT * FROM author';
+const getQuery = 'SELECT * FROM author;
 
 AuthorsController.prototype.get = async (req, res) => {
    try {
